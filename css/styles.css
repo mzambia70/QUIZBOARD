@@ -1,4 +1,4 @@
-.moti-showing {
+#moti-showing {
     display:none;
 }
 
@@ -13,11 +13,20 @@ form{
     font-family: 'Germania One', cursive;
     font-weight: lighter;
     font-style: bold;
+    font-size: 40px;
 
 }
 body{
     background-image: url(..//images/bg.jpeg);
     text-align: center;
+    padding-left: 100px;
+    padding-Right:100px;
+}
+img{
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 10px;
+    margin: auto;
 }
 .jumbotron{
 
