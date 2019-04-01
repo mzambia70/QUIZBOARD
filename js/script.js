@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     $("#submit").click(function(event){
         $("#QUIZ").hide();
         $("#result").show();
@@ -7,7 +6,7 @@ $(document).ready(function(){
         event.preventDefault();
 
 
-        
+
 
         var score = 0;
         var questOne = parseInt($("input:radio[name=q1]:checked").val());
@@ -39,3 +38,9 @@ else{
 
     })
 })
+$(document).ready(function(){
+    $(".clickable").click(function(){
+        $(".moti-showing").toggle();
+        $(".moti-hidden").toggle();
+    });
+});
