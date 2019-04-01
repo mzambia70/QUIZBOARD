@@ -11,6 +11,16 @@ This application was done by mohamed muhumed
 
 This application was intended to give the outcome of a test to the student and show them their effort and their outcome.
 
+###BDD:
+|BEHAVIOR                           | INPUT     |            OUTPUT         |
+|-----------------------------------|-----------|---------------------------|
+|if student gets >=70               | result    | you've passed Excellently |
+|-----------------------------------|-----------|---------------------------|
+|if student gets >=50               | result    |very good fairly passed    |
+|-----------------------------------|-----------|---------------------------|
+|if student gets < 50               | result    | poorly done retry test    |
+|-----------------------------------|-----------|---------------------------|
+
 
 ## Setup/Installation Requirements:
 1.Have a functional github account
