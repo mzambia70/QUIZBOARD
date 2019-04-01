@@ -1,0 +1,24 @@
+.moti-showing {
+    display:none;
+}
+
+.clickable{
+    cursor:pointer;
+    color:#0088cc;
+}
+.clickable{
+    text-decoration:underline;
+}
+form{
+    font-family: 'Germania One', cursive;
+    font-weight: lighter;
+    font-style: bold;
+
+}
+body{
+    background-image: url(..//images/bg.jpeg);
+    text-align: center;
+}
+.jumbotron{
+
+}
