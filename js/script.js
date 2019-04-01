@@ -40,7 +40,7 @@ else{
 })
 $(document).ready(function(){
     $(".clickable").click(function(){
-        $(".moti-showing").toggle();
-        $(".moti-hidden").toggle();
+        $("#moti-hidden").toggle();
+        $("#moti-showing").toggle();
     });
 });
